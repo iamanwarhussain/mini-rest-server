@@ -18,12 +18,10 @@ This is a simple **RESTful API** i have built using **Node.js** and **Express.js
 
 user-crud-rest-api/
 ```html
-<ul>
-  <li>MOCK_DATA.json # Sample user data in JSON format</li>
-  <li>index.js # Main server file</li>
-  <li>package.json</li>
-  <li>README.md</li>
-</ul>
+  MOCK_DATA.json # Sample user data in JSON format
+  index.js # Main server file
+  package.json 
+  README.md
 ```
 ---
 
