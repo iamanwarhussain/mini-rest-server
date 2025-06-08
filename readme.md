@@ -17,10 +17,11 @@ This is a simple **RESTful API** i have built using **Node.js** and **Express.js
 ## 📁 Project Structure
 
 user-crud-rest-api/
-├── MOCK_DATA.json # Sample user data in JSON format
-├── index.js # Main server file
-├── package.json
-└── README.md
+
+file MOCK_DATA.json # Sample user data in JSON format
+file index.js # Main server file
+file package.json
+file README.md
 
 ---
 
@@ -29,25 +30,41 @@ user-crud-rest-api/
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/user-crud-rest-api.git
+
+    ```
+   ```bash
    cd user-crud-rest-api
+   ```
+  
 Install dependencies:
 
+``bash
 npm install
+```
 Start the server:
+```javascript
+npm start
+```
 
-node index.js
 The server will run at http://localhost:8080.
 
 🛠️ API Endpoints
 Method	Endpoint	Description
+
 GET	    /users	    Get all users
+
 GET	    /users/:id	Get a user by ID
+
 POST	/users/add	Add a new user
+
 PATCH	/users/update/:id	Update a user by ID
+
 DELETE	/users/delete/:id	Delete a user by ID
+
 
 📥 Sample POST Body
 
+```json
 {
   "id": 101,
   "first_name": "John",
@@ -56,7 +73,11 @@ DELETE	/users/delete/:id	Delete a user by ID
   "gender": "Male",
   "job_title": "Developer"
 }
+
+```
+
 📌 Note
+
 
 The data is stored in MOCK_DATA.json, is working as a local database.
 
