@@ -1,6 +1,6 @@
 {
   "name": "mini-rest-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -10,6 +10,8 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10",
+    "winston": "^3.17.0"
   }
 }
