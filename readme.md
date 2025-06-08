@@ -17,12 +17,14 @@ This is a simple **RESTful API** i have built using **Node.js** and **Express.js
 ## 📁 Project Structure
 
 user-crud-rest-api/
-
-file MOCK_DATA.json # Sample user data in JSON format
-file index.js # Main server file
-file package.json
-file README.md
-
+```html
+<ul>
+  <li>MOCK_DATA.json # Sample user data in JSON format</li>
+  <li>index.js # Main server file</li>
+  <li>package.json</li>
+  <li>README.md</li>
+</ul>
+```
 ---
 
 ## 📦 Installation
@@ -38,11 +40,11 @@ file README.md
   
 Install dependencies:
 
-``bash
+```bash
 npm install
 ```
 Start the server:
-```javascript
+```bash
 npm start
 ```
 
