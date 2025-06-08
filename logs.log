@@ -1,0 +1,8 @@
+2025-06-08 12:55:07 [INFO] : Serveris running on port : 2323
+2025-06-08 12:55:57 [INFO] : Serveris running on port : 2323
+2025-06-08 12:57:14 [INFO] : Serveris running on port : 2323
+2025-06-08 13-01-48 [INFO] : Serveris running on port : 2323
+2025-06-08 13-02-39 [INFO] : Serveris running on port : 2323
+2025-06-08 13-03-12 [INFO] : User sent successfully!
+2025-06-08 13-03-12 [INFO] : ::ffff:127.0.0.1 - - [08/Jun/2025:07:33:12 +0000] "GET /users/10 HTTP/1.1" 200 129 "-" "PostmanRuntime/7.44.0"
+2025-06-08 13-04-11 [INFO] : Serveris running on port : 2323
